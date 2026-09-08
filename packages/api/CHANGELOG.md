@@ -1,5 +1,13 @@
 # @hyperdx/api
 
+## 2.39.0
+
+### Patch Changes
+
+- 78a33ba4: feat: Allow configuring dashboard filters as required
+- Updated dependencies [78a33ba4]
+  - @hyperdx/common-utils@0.28.2
+
 ## 2.38.0
 
 ### Minor Changes

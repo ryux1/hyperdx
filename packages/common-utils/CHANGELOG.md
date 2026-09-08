@@ -1,5 +1,11 @@
 # @hyperdx/common-utils
 
+## 0.28.2
+
+### Patch Changes
+
+- 78a33ba4: feat: Allow configuring dashboard filters as required
+
 ## 0.28.1
 
 ### Patch Changes

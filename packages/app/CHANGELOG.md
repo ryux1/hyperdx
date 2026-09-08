@@ -1,5 +1,16 @@
 # @hyperdx/app
 
+## 2.39.0
+
+### Patch Changes
+
+- ab15643f: Fix default time range resolution for long-lived sessions
+- 78a33ba4: feat: Allow configuring dashboard filters as required
+- 25695c1a: Stop the Help menu sparkling on every deploy. The "you haven't read the latest release notes" indicator compared the browser's last acknowledgement against `NEXT_PUBLIC_APP_VERSION`, which any deployment that stamps a build id into it (a git short SHA, a CI build number) changes on every deploy — so the nudge fired for every user every time whether a new release had been published or not. It now keys on the newest release version in the changelog, inlined at build time, and nudges only when that release is strictly newer than the one the browser has acknowledged, so a rollback no longer re-nudges everyone either.
+- Updated dependencies [78a33ba4]
+  - @hyperdx/common-utils@0.28.2
+  - @hyperdx/api@2.39.0
+
 ## 2.38.0
 
 ### Minor Changes
